@@ -293,7 +293,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DeathActionWorkers\DeathActionWorker_ToxCloudAndRots.cs" />
+    <Compile Include="DefOfs\InternalDefOf.cs" />
+    <Compile Include="JobDrivers\JobDriver_AttackTree.cs" />
+    <Compile Include="JobGivers\JobGiver_AttackTree.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThinkNodes\ThinkNode_Wasteboar.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Lib.Harmony">
@@ -301,5 +306,6 @@
       <ExcludeAssets>runtime</ExcludeAssets>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

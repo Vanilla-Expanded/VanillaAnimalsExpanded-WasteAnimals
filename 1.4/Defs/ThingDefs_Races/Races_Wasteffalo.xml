@@ -109,24 +109,7 @@
 			<li>AnimalToxic</li>
 
 		</tradeTags>
-		<modExtensions>
-			<li Class="AnimalBehaviours.AnimalStatExtension">
-
-				<statToAdd>
-					<li>VAERoy_PrimaryRole</li>
-
-				</statToAdd>
-				<statValues>
-					<li>VAERoy_UtilityHeat</li>
-
-				</statValues>
-				<statDescriptions>
-					<li>VAERoy_UtilityHeatDisipationDesc</li>
-
-				</statDescriptions>
-
-			</li>
-		</modExtensions>
+		
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
