@@ -293,11 +293,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Comps\CompMadness.cs" />
+    <Compile Include="Comps\Properties\CompProperties_Madness.cs" />
     <Compile Include="DeathActionWorkers\DeathActionWorker_ToxCloudAndRots.cs" />
     <Compile Include="DefOfs\InternalDefOf.cs" />
+    <Compile Include="Enums\ToxbearState.cs" />
+    <Compile Include="JobDrivers\JobDriver_AttackSelf.cs" />
     <Compile Include="JobDrivers\JobDriver_AttackTree.cs" />
+    <Compile Include="JobDrivers\JobDriver_EatWastepack.cs" />
     <Compile Include="JobGivers\JobGiver_AttackTree.cs" />
+    <Compile Include="JobGivers\JobGiver_EatWastepacks.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThinkNodes\ThinkNode_Megatardi.cs" />
     <Compile Include="ThinkNodes\ThinkNode_Wasteboar.cs" />
   </ItemGroup>
   <ItemGroup>

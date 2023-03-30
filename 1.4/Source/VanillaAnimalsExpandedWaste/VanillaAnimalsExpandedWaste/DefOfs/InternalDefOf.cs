@@ -15,6 +15,10 @@ namespace VanillaAnimalsExpandedWaste
 
        
         public static ThingDef VAEWaste_Wasteboar;
+        public static ThingDef VAEWaste_Megatardi;
         public static JobDef VAEWaste_AttackTree;
+        public static JobDef VAEWaste_AttackSelf;
+        public static JobDef VAEWaste_EatWastepack;
+
     }
 }

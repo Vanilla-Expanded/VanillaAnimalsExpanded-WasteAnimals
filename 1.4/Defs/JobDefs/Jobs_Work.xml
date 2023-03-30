@@ -8,4 +8,18 @@
 		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
 	</JobDef>
 	
+	<JobDef>
+		<defName>VAEWaste_AttackSelf</defName>
+		<driverClass>VanillaAnimalsExpandedWaste.JobDriver_AttackSelf</driverClass>
+		<reportString>scratching own brain out.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+	
+	<JobDef>
+		<defName>VAEWaste_EatWastepack</defName>
+		<driverClass>VanillaAnimalsExpandedWaste.JobDriver_EatWastepack</driverClass>
+		<reportString>eating TargetA.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+	
 </Defs>

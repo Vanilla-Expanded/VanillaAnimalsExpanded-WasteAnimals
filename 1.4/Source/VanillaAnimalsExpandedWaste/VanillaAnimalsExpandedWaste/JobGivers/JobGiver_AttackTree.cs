@@ -17,8 +17,11 @@ namespace VanillaAnimalsExpandedWaste
             List<Thing> listTrees = (from c in pawn.Map.listerThings.ThingsInGroup(ThingRequestGroup.Plant)
                                      where ((plant= c as Plant) != null) && plant.def.plant.IsTree
                                      select c).ToList();
-
-            thing = listTrees.RandomElement();
+            if(listTrees.Count > 0)
+            {
+                thing = listTrees.RandomElement();
+            }
+            
             if (thing != null)
             {
                 Job job = JobMaker.MakeJob(InternalDefOf.VAEWaste_AttackTree, thing);
