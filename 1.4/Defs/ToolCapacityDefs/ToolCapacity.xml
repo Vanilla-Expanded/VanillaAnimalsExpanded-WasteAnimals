@@ -9,6 +9,10 @@
 		<label>toxflu bite</label>
 	</ToolCapacityDef>
 	<ToolCapacityDef>
+		<defName>VAEWaste_RippingBite</defName>
+		<label>ripping bite</label>
+	</ToolCapacityDef>
+	<ToolCapacityDef>
 		<defName>VAEWaste_FluClaws</defName>
 		<label>toxflu claws</label>
 	</ToolCapacityDef>
