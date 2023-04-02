@@ -19,6 +19,8 @@ namespace VanillaAnimalsExpandedWaste
         public static JobDef VAEWaste_AttackTree;
         public static JobDef VAEWaste_AttackSelf;
         public static JobDef VAEWaste_EatWastepack;
+        public static HediffDef VAEWaste_LongToxflu;
+        public static HediffDef VAEWaste_Toxflu;
 
     }
 }

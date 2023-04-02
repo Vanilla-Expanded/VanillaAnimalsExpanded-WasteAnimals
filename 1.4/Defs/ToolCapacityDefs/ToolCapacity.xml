@@ -4,5 +4,13 @@
 		<defName>VAEWaste_Sting</defName>
 		<label>toxic sting</label>
 	</ToolCapacityDef>
+	<ToolCapacityDef>
+		<defName>VAEWaste_FluBite</defName>
+		<label>toxflu bite</label>
+	</ToolCapacityDef>
+	<ToolCapacityDef>
+		<defName>VAEWaste_FluClaws</defName>
+		<label>toxflu claws</label>
+	</ToolCapacityDef>
 	
 </Defs>

@@ -17,10 +17,11 @@
 			<li>
 				<label>left claw</label>
 				<capacities>
-					<li>Scratch</li>
+					<li>VAEWaste_FluClaws</li>
 				</capacities>
 				<power>8</power>
 				<cooldownTime>1.5</cooldownTime>
+				<chanceFactor>0.3</chanceFactor>
 				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
@@ -34,10 +35,11 @@
 			<li>
 				<label>right claw</label>
 				<capacities>
-					<li>Scratch</li>
+					<li>VAEWaste_FluClaws</li>
 				</capacities>
 				<power>8</power>
 				<cooldownTime>1.5</cooldownTime>
+				<chanceFactor>0.3</chanceFactor>
 				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
@@ -50,12 +52,12 @@
 			</li>
 			<li>
 				<capacities>
-					<li>Bite</li>
+					<li>VAEWaste_FluBite</li>
 				</capacities>
 				<power>10</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-				<chanceFactor>0.7</chanceFactor>
+				<chanceFactor>0.3</chanceFactor>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
@@ -66,15 +68,14 @@
 				</surpriseAttack>
 			</li>
 			<li>
-				<label>head</label>
 				<capacities>
-					<li>Blunt</li>
+					<li>Bite</li>
 				</capacities>
-				<power>9</power>
+				<power>6</power>
 				<cooldownTime>2</cooldownTime>
-				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+				
 			</li>
 		</tools>
 		<race>

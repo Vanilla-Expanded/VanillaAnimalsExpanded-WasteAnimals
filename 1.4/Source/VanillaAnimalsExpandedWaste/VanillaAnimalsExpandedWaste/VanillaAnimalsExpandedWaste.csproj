@@ -298,6 +298,10 @@
     <Compile Include="DeathActionWorkers\DeathActionWorker_ToxCloudAndRots.cs" />
     <Compile Include="DefOfs\InternalDefOf.cs" />
     <Compile Include="Enums\ToxbearState.cs" />
+    <Compile Include="Harmony\HarmonyInstance.cs" />
+    <Compile Include="Harmony\InteractionUtility_CanReceiveInteraction.cs" />
+    <Compile Include="Hediffs\HediffCompProperties\HediffCompProperties_Toxflu.cs" />
+    <Compile Include="Hediffs\HediffComp_Toxflu.cs" />
     <Compile Include="JobDrivers\JobDriver_AttackSelf.cs" />
     <Compile Include="JobDrivers\JobDriver_AttackTree.cs" />
     <Compile Include="JobDrivers\JobDriver_EatWastepack.cs" />
