@@ -1,12 +1,43 @@
-﻿using System;
+﻿using RimWorld;
+using System;
+using Verse;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using UnityEngine;
 
-namespace VanillaAnimalsExpandedWaste.Damages
+namespace VanillaAnimalsExpandedWaste
 {
-    internal class DamageWorker_RipPart
+    public class DamageWorker_RipPart : DamageWorker_AddInjury
     {
+        public override DamageWorker.DamageResult Apply(DamageInfo dinfo, Thing victim)
+        {
+            System.Random rand = new System.Random();
+            Pawn pawn = victim as Pawn;
+            if (pawn != null)
+            {
+                BodyPartRecord bodyPartRecord = dinfo.HitPart;
+                if (bodyPartRecord != null)
+                {
+                    int num = (int)pawn.health.hediffSet.GetPartHealth(bodyPartRecord) + 1000;
+                    DamageInfo damageInfo = new DamageInfo(DamageDefOf.Cut, (float)num, 999f, -1f, dinfo.Instigator, bodyPartRecord, null, DamageInfo.SourceCategory.ThingOrUnknown, null, true, true);
+                    damageInfo.SetAllowDamagePropagation(false);
+                    victim.TakeDamage(damageInfo);
+                    if (pawn.Faction != null && pawn.Faction.IsPlayer)
+                    {
+                        Messages.Message("VAEWaste_PestigatorRips".Translate(pawn.LabelCap, bodyPartRecord.customLabel), pawn, MessageTypeDefOf.NegativeEvent);
+
+                    }
+                }
+            }
+
+               
+            DamageWorker.DamageResult damageResult = base.Apply(dinfo, victim);
+
+
+            return damageResult;
+        }
+
+
     }
 }
+
