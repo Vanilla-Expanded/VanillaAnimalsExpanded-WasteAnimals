@@ -24,13 +24,18 @@ namespace VanillaAnimalsExpandedWaste
 
         public override void CompPostPostRemoved()
         {
-          
-            Pawn pawn = this.parent.pawn as Pawn;
-            List<BodyPartRecord> parts = pawn.RaceProps.body.GetPartsWithDef(BodyPartDefOf.Lung);
-            foreach(BodyPartRecord part in parts)
+            System.Random random = new System.Random();
+            double randomChance = random.NextDouble();
+            if (randomChance < 0.25f)
             {
-                pawn.health.AddHediff(InternalDefOf.VAEWaste_LongToxflu, part);
+                Pawn pawn = this.parent.pawn as Pawn;
+                List<BodyPartRecord> parts = pawn.RaceProps.body.GetPartsWithDef(BodyPartDefOf.Lung);
+                foreach (BodyPartRecord part in parts)
+                {
+                    pawn.health.AddHediff(InternalDefOf.VAEWaste_LongToxflu, part);
+                }
             }
+           
             
         }
 

@@ -6,7 +6,7 @@ namespace VanillaAnimalsExpandedWaste
 {
     public class HediffCompProperties_Toxflu : HediffCompProperties
     {
-        public int rateInTicks = 100;
+       
 
         public HediffCompProperties_Toxflu()
         {
