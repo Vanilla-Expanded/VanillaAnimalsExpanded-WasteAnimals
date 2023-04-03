@@ -11,7 +11,7 @@ namespace VanillaAnimalsExpandedWaste
 
         protected override bool Satisfied(Pawn pawn)
         {
-            if (pawn.def == InternalDefOf.VAEWaste_Megatardi)
+            if (pawn.kindDef == InternalDefOf.VAEWaste_Megatardi)
             {
                 return true;
             }

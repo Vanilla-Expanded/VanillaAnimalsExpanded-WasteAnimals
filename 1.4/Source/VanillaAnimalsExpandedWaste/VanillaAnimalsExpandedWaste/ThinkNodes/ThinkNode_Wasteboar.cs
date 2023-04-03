@@ -11,7 +11,7 @@ namespace VanillaAnimalsExpandedWaste
 
         protected override bool Satisfied(Pawn pawn)
         {
-            if (pawn.def == InternalDefOf.VAEWaste_Wasteboar)
+            if (pawn.kindDef == InternalDefOf.VAEWaste_Wasteboar)
             {
                 return true;
             }
