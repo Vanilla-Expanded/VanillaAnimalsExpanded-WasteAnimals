@@ -23,7 +23,7 @@
 				<power>22</power>
 				<cooldownTime>2.6</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-				<chanceFactor>0.7</chanceFactor>
+				<chanceFactor>1</chanceFactor>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
@@ -38,7 +38,17 @@
 				<message>VAEWaste_PestigatorNotTameable</message>
 				<sendMessage>true</sendMessage>
 				<goesManhunter>true</goesManhunter>
-			</li></comps>
+			</li>
+			<li Class="AnimalBehaviours.CompProperties_GraphicByTerrain">
+				
+				<changeGraphicsInterval>240</changeGraphicsInterval>
+				<waterOverride>true</waterOverride>
+				<waterSuffix>Hidden</waterSuffix>
+				<waterHediffToApply>VAEWaste_PestigatorUnderwater</waterHediffToApply>
+
+			</li>
+			
+			</comps>
 		<race>
 			<body>VAEWaste_LargeLizardlike</body>
 			<herdAnimal>false</herdAnimal>
@@ -92,16 +102,6 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/Pestigator/Pestigator</texPath>
-					<drawSize>1</drawSize>
-				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Pestigator/Dessicated_Pestigator</texPath>
-					<drawSize>1</drawSize>
-				</dessicatedBodyGraphicData>
-			</li>
-			<li>
-				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Pestigator/Pestigator</texPath>
 					<drawSize>2</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -113,6 +113,16 @@
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/Pestigator/Pestigator</texPath>
 					<drawSize>3</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Pestigator/Dessicated_Pestigator</texPath>
+					<drawSize>3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Pestigator/Pestigator</texPath>
+					<drawSize>4</drawSize>
 					<shadowData>
 						<volume>(0.25, 0.3, 0.25)</volume>
 						<offset>(0,0,0)</offset>
@@ -120,7 +130,7 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/Pestigator/Dessicated_Pestigator</texPath>
-					<drawSize>3</drawSize>
+					<drawSize>4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>

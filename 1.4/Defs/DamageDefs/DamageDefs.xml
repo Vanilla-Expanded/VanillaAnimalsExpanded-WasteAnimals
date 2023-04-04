@@ -67,7 +67,7 @@
 		<armorCategory>Sharp</armorCategory>
 	</DamageDef>
 	
-		<DamageDef>
+	<DamageDef>
 		<defName>VAEWaste_RippingBite</defName>
 		<label>ripping bite</label>
 		<workerClass>VanillaAnimalsExpandedWaste.DamageWorker_RipPart</workerClass>

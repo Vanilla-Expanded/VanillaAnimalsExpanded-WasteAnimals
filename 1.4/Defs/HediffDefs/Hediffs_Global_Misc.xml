@@ -13,7 +13,7 @@
 				<severityPerDayNotImmune>-0.33</severityPerDayNotImmune>
 			</li>
 			<li Class="VanillaAnimalsExpandedWaste.HediffCompProperties_Toxflu">
-				
+
 			</li>
 		</comps>
 		<stages>
@@ -86,10 +86,10 @@
 					</li>
 				</capMods>
 			</li>
-			
+
 		</stages>
 	</HediffDef>
-	
+
 	<HediffDef ParentName="DiseaseBase">
 		<defName>VAEWaste_LongToxflu</defName>
 		<description>A long-term scar tissue damage to the airways in the lungs. It doesn’t require tending.</description>
@@ -97,13 +97,39 @@
 		<isBad>false</isBad>
 		<initialSeverity>1.0</initialSeverity>
 		<maxSeverity>1.0</maxSeverity>
-		
+
 		<addedPartProps>
 			<solid>false</solid>
 			<partEfficiency>0.7</partEfficiency>
 			<betterThanNatural>false</betterThanNatural>
 		</addedPartProps>
 	</HediffDef>
-	
-	
+
+	<HediffDef>
+		<defName>VAEWaste_PestigatorUnderwater</defName>
+		<description>This Pestigator is partially submerged, making it swifter and more defended.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>underwater</label>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<stages>
+			<li>
+				<capMods>
+
+					<li>
+						<capacity>Moving</capacity>
+						<offset>10</offset>
+					</li>
+
+				</capMods>
+				<statOffsets>
+					<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+
 </Defs>

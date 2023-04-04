@@ -11,20 +11,24 @@ namespace VanillaAnimalsExpandedWaste
     {
         public override DamageWorker.DamageResult Apply(DamageInfo dinfo, Thing victim)
         {
-            System.Random rand = new System.Random();
+           
             Pawn pawn = victim as Pawn;
+           
             if (pawn != null)
             {
-                BodyPartRecord bodyPartRecord = dinfo.HitPart;
+
+                BodyPartRecord bodyPartRecord = ReflectionCache.GetExactPartFromDamageInfo(this,dinfo,pawn);
+               
                 if (bodyPartRecord != null)
                 {
+                   
                     int num = (int)pawn.health.hediffSet.GetPartHealth(bodyPartRecord) + 1000;
                     DamageInfo damageInfo = new DamageInfo(DamageDefOf.Cut, (float)num, 999f, -1f, dinfo.Instigator, bodyPartRecord, null, DamageInfo.SourceCategory.ThingOrUnknown, null, true, true);
                     damageInfo.SetAllowDamagePropagation(false);
-                    victim.TakeDamage(damageInfo);
+                    pawn.TakeDamage(damageInfo);
                     if (pawn.Faction != null && pawn.Faction.IsPlayer)
                     {
-                        Messages.Message("VAEWaste_PestigatorRips".Translate(pawn.LabelCap, bodyPartRecord.customLabel), pawn, MessageTypeDefOf.NegativeEvent);
+                        Messages.Message("VAEWaste_PestigatorRips".Translate(pawn.LabelShortCap, bodyPartRecord.Label), pawn, MessageTypeDefOf.NegativeEvent);
 
                     }
                 }

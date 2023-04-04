@@ -13,15 +13,17 @@
 					<xpath>/Defs/RecipeDef[@Name = "OldWoundsAnimal"]/recipeUsers</xpath>
 					<value>
 
-						<li>VAERoy_AngoraRabbit</li>
-						<li>VAERoy_Crane</li>
-						<li>VAERoy_Megachicken</li>
-						<li>VAERoy_Orangutan</li>
-						<li>VAERoy_Peacock</li>
-						<li>VAERoy_Pheasant</li>
-						<li>VAERoy_Quail</li>
-						<li>VAERoy_RoyalTiger</li>
-						<li>VAERoy_Swan</li>
+						<li>VAEWaste_Megatardi</li>
+						<li>VAEWaste_Pestigator</li>
+						<li>VAEWaste_Toxafox</li>
+						<li>VAEWaste_Toxbear</li>
+						<li>VAEWaste_Toxiguana</li>
+						<li>VAEWaste_Toxlion</li>
+						<li>VAEWaste_Toxscorpion</li>
+						<li>VAEWaste_Wasteboar</li>
+						<li>VAEWaste_Wastedeer</li>
+						<li>VAEWaste_Wasteffalo</li>
+						<li>VAEWaste_Hydra</li>
 
 
 					</value>
@@ -32,15 +34,17 @@
 					<!-- "Inserting animal defNames into InstallBionicAnimalStomach surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallBionicAnimalStomach"]/recipeUsers</xpath>
 					<value>
-						<li>VAERoy_AngoraRabbit</li>
-						<li>VAERoy_Crane</li>
-						<li>VAERoy_Megachicken</li>
-						<li>VAERoy_Orangutan</li>
-						<li>VAERoy_Peacock</li>
-						<li>VAERoy_Pheasant</li>
-						<li>VAERoy_Quail</li>
-						<li>VAERoy_RoyalTiger</li>
-						<li>VAERoy_Swan</li>
+						<li>VAEWaste_Megatardi</li>
+						<li>VAEWaste_Pestigator</li>
+						<li>VAEWaste_Toxafox</li>
+						<li>VAEWaste_Toxbear</li>
+						<li>VAEWaste_Toxiguana</li>
+						<li>VAEWaste_Toxlion</li>
+						<li>VAEWaste_Toxscorpion</li>
+						<li>VAEWaste_Wasteboar</li>
+						<li>VAEWaste_Wastedeer</li>
+						<li>VAEWaste_Wasteffalo</li>
+						<li>VAEWaste_Hydra</li>
 
 					</value>
 				</li>
@@ -49,15 +53,16 @@
 					<!-- "Inserting animal defNames into InstallBionicAnimalKidney surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallBionicAnimalKidney"]/recipeUsers</xpath>
 					<value>
-						<li>VAERoy_AngoraRabbit</li>
-						<li>VAERoy_Crane</li>
-						<li>VAERoy_Megachicken</li>
-						<li>VAERoy_Orangutan</li>
-						<li>VAERoy_Peacock</li>
-						<li>VAERoy_Pheasant</li>
-						<li>VAERoy_Quail</li>
-						<li>VAERoy_RoyalTiger</li>
-						<li>VAERoy_Swan</li>
+
+						<li>VAEWaste_Pestigator</li>
+						<li>VAEWaste_Toxafox</li>
+						<li>VAEWaste_Toxbear</li>
+						<li>VAEWaste_Toxiguana</li>
+						<li>VAEWaste_Toxlion</li>
+						<li>VAEWaste_Wasteboar</li>
+						<li>VAEWaste_Wastedeer</li>
+						<li>VAEWaste_Wasteffalo</li>
+						<li>VAEWaste_Hydra</li>
 					</value>
 				</li>
 
@@ -65,15 +70,15 @@
 					<!-- "Inserting animal defNames into InstallBionicAnimalLiver surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallBionicAnimalLiver"]/recipeUsers</xpath>
 					<value>
-						<li>VAERoy_AngoraRabbit</li>
-						<li>VAERoy_Crane</li>
-						<li>VAERoy_Megachicken</li>
-						<li>VAERoy_Orangutan</li>
-						<li>VAERoy_Peacock</li>
-						<li>VAERoy_Pheasant</li>
-						<li>VAERoy_Quail</li>
-						<li>VAERoy_RoyalTiger</li>
-						<li>VAERoy_Swan</li>
+						<li>VAEWaste_Pestigator</li>
+						<li>VAEWaste_Toxafox</li>
+						<li>VAEWaste_Toxbear</li>
+						<li>VAEWaste_Toxiguana</li>
+						<li>VAEWaste_Toxlion</li>
+						<li>VAEWaste_Wasteboar</li>
+						<li>VAEWaste_Wastedeer</li>
+						<li>VAEWaste_Wasteffalo</li>
+						<li>VAEWaste_Hydra</li>
 					</value>
 				</li>
 
@@ -81,15 +86,15 @@
 					<!-- "Inserting animal defNames into InstallBionicAnimalLung surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallBionicAnimalLung"]/recipeUsers</xpath>
 					<value>
-						<li>VAERoy_AngoraRabbit</li>
-						<li>VAERoy_Crane</li>
-						<li>VAERoy_Megachicken</li>
-						<li>VAERoy_Orangutan</li>
-						<li>VAERoy_Peacock</li>
-						<li>VAERoy_Pheasant</li>
-						<li>VAERoy_Quail</li>
-						<li>VAERoy_RoyalTiger</li>
-						<li>VAERoy_Swan</li>		
+						<li>VAEWaste_Pestigator</li>
+						<li>VAEWaste_Toxafox</li>
+						<li>VAEWaste_Toxbear</li>
+						<li>VAEWaste_Toxiguana</li>
+						<li>VAEWaste_Toxlion</li>
+						<li>VAEWaste_Wasteboar</li>
+						<li>VAEWaste_Wastedeer</li>
+						<li>VAEWaste_Wasteffalo</li>
+						<li>VAEWaste_Hydra</li>	
 					</value>
 				</li>
 
@@ -97,15 +102,15 @@
 					<!-- "Inserting animal defNames into InstallBionicAnimalHeart surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallBionicAnimalHeart"]/recipeUsers</xpath>
 					<value>
-						<li>VAERoy_AngoraRabbit</li>
-						<li>VAERoy_Crane</li>
-						<li>VAERoy_Megachicken</li>
-						<li>VAERoy_Orangutan</li>
-						<li>VAERoy_Peacock</li>
-						<li>VAERoy_Pheasant</li>
-						<li>VAERoy_Quail</li>
-						<li>VAERoy_RoyalTiger</li>
-						<li>VAERoy_Swan</li>			
+						<li>VAEWaste_Pestigator</li>
+						<li>VAEWaste_Toxafox</li>
+						<li>VAEWaste_Toxbear</li>
+						<li>VAEWaste_Toxiguana</li>
+						<li>VAEWaste_Toxlion</li>
+						<li>VAEWaste_Wasteboar</li>
+						<li>VAEWaste_Wastedeer</li>
+						<li>VAEWaste_Wasteffalo</li>
+						<li>VAEWaste_Hydra</li>		
 					</value>
 				</li>
 
@@ -113,15 +118,17 @@
 					<!-- "Inserting animal defNames into InstallAnimalBrainStimulator surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallAnimalBrainStimulator"]/recipeUsers</xpath>
 					<value>
-						<li>VAERoy_AngoraRabbit</li>
-						<li>VAERoy_Crane</li>
-						<li>VAERoy_Megachicken</li>
-						<li>VAERoy_Orangutan</li>
-						<li>VAERoy_Peacock</li>
-						<li>VAERoy_Pheasant</li>
-						<li>VAERoy_Quail</li>
-						<li>VAERoy_RoyalTiger</li>
-						<li>VAERoy_Swan</li>			
+						<li>VAEWaste_Megatardi</li>
+						<li>VAEWaste_Pestigator</li>
+						<li>VAEWaste_Toxafox</li>
+						<li>VAEWaste_Toxbear</li>
+						<li>VAEWaste_Toxiguana</li>
+						<li>VAEWaste_Toxlion</li>
+						<li>VAEWaste_Toxscorpion</li>
+						<li>VAEWaste_Wasteboar</li>
+						<li>VAEWaste_Wastedeer</li>
+						<li>VAEWaste_Wasteffalo</li>
+						<li>VAEWaste_Hydra</li>		
 					</value>
 				</li>
 
@@ -129,15 +136,15 @@
 					<!-- "Inserting animal defNames into InstallSpineAnimalBionic surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallSpineAnimalBionic" or defName ="InstallSpineAnimalSimple"]/recipeUsers</xpath>
 					<value>
-						<li>VAERoy_AngoraRabbit</li>
-						<li>VAERoy_Crane</li>
-						<li>VAERoy_Megachicken</li>
-						<li>VAERoy_Orangutan</li>
-						<li>VAERoy_Peacock</li>
-						<li>VAERoy_Pheasant</li>
-						<li>VAERoy_Quail</li>
-						<li>VAERoy_RoyalTiger</li>
-						<li>VAERoy_Swan</li>		
+						<li>VAEWaste_Pestigator</li>
+						<li>VAEWaste_Toxafox</li>
+						<li>VAEWaste_Toxbear</li>
+						<li>VAEWaste_Toxiguana</li>
+						<li>VAEWaste_Toxlion</li>
+						<li>VAEWaste_Wasteboar</li>
+						<li>VAEWaste_Wastedeer</li>
+						<li>VAEWaste_Wasteffalo</li>
+						<li>VAEWaste_Hydra</li>		
 					</value>
 				</li>
 
@@ -147,15 +154,17 @@
 					<!-- "Inserting animal defNames into InstallJawAnimalBionic surgery <recipeUsers> -->
 					<xpath>/Defs/RecipeDef[defName = "InstallJawAnimalBionic" or defName ="InstallJawAnimalSimple"]/recipeUsers</xpath>
 					<value>
-						<li>VAERoy_AngoraRabbit</li>
-						<li>VAERoy_Crane</li>
-						<li>VAERoy_Megachicken</li>
-						<li>VAERoy_Orangutan</li>
-						<li>VAERoy_Peacock</li>
-						<li>VAERoy_Pheasant</li>
-						<li>VAERoy_Quail</li>
-						<li>VAERoy_RoyalTiger</li>
-						<li>VAERoy_Swan</li>			
+						<li>VAEWaste_Megatardi</li>
+						<li>VAEWaste_Pestigator</li>
+						<li>VAEWaste_Toxafox</li>
+						<li>VAEWaste_Toxbear</li>
+						<li>VAEWaste_Toxiguana</li>
+						<li>VAEWaste_Toxlion</li>
+						<li>VAEWaste_Toxscorpion</li>
+						<li>VAEWaste_Wasteboar</li>
+						<li>VAEWaste_Wastedeer</li>
+						<li>VAEWaste_Wasteffalo</li>
+						<li>VAEWaste_Hydra</li>			
 					</value>
 				</li>
 
@@ -165,12 +174,16 @@
 					<!-- "Inserting animal defNames into InstallNoseAnimalSimple surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallNoseAnimalSimple"]/recipeUsers</xpath>
 					<value>
-						<li>VAERoy_AngoraRabbit</li>
 
-						<li>VAERoy_Orangutan</li>
+						<li>VAEWaste_Toxafox</li>
+						<li>VAEWaste_Toxbear</li>
 
-						<li>VAERoy_RoyalTiger</li>
+						<li>VAEWaste_Toxlion</li>
 
+						<li>VAEWaste_Wasteboar</li>
+						<li>VAEWaste_Wastedeer</li>
+						<li>VAEWaste_Wasteffalo</li>
+						<li>VAEWaste_Hydra</li>			
 					</value>
 				</li>
 
@@ -178,15 +191,17 @@
 					<!-- "Inserting animal defNames into InstallBionicEyeAnimal surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallBionicEyeAnimal"]/recipeUsers</xpath>
 					<value>
-						<li>VAERoy_AngoraRabbit</li>
-						<li>VAERoy_Crane</li>
-						<li>VAERoy_Megachicken</li>
-						<li>VAERoy_Orangutan</li>
-						<li>VAERoy_Peacock</li>
-						<li>VAERoy_Pheasant</li>
-						<li>VAERoy_Quail</li>
-						<li>VAERoy_RoyalTiger</li>
-						<li>VAERoy_Swan</li>	
+
+						<li>VAEWaste_Pestigator</li>
+						<li>VAEWaste_Toxafox</li>
+						<li>VAEWaste_Toxbear</li>
+						<li>VAEWaste_Toxiguana</li>
+						<li>VAEWaste_Toxlion</li>
+						<li>VAEWaste_Toxscorpion</li>
+						<li>VAEWaste_Wasteboar</li>
+						<li>VAEWaste_Wastedeer</li>
+						<li>VAEWaste_Wasteffalo</li>
+						<li>VAEWaste_Hydra</li>
 					</value>
 				</li>
 
@@ -194,11 +209,17 @@
 					<!-- "Inserting animal defNames into InstallEarAnimalSimple surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallEarAnimalSimple" or defName ="InstallEarAnimalBionic"]/recipeUsers</xpath>
 					<value>
-						<li>VAERoy_AngoraRabbit</li>
 
-						<li>VAERoy_Orangutan</li>
 
-						<li>VAERoy_RoyalTiger</li>
+						<li>VAEWaste_Toxafox</li>
+						<li>VAEWaste_Toxbear</li>
+
+						<li>VAEWaste_Toxlion</li>
+
+						<li>VAEWaste_Wasteboar</li>
+						<li>VAEWaste_Wastedeer</li>
+						<li>VAEWaste_Wasteffalo</li>
+
 					</value>
 				</li>
 
@@ -210,15 +231,17 @@
 					<!-- "Inserting animal defNames into InstallPegLegAnimal surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallPegLegAnimal" or defName ="InstallSimpleProstheticLegAnimal" or defName ="InstallBionicLegAnimal"]/recipeUsers</xpath>
 					<value>
-						<li>VAERoy_AngoraRabbit</li>
-						<li>VAERoy_Crane</li>
-						<li>VAERoy_Megachicken</li>
-						<li>VAERoy_Orangutan</li>
-						<li>VAERoy_Peacock</li>
-						<li>VAERoy_Pheasant</li>
-						<li>VAERoy_Quail</li>
-						<li>VAERoy_RoyalTiger</li>
-						<li>VAERoy_Swan</li>					
+						<li>VAEWaste_Megatardi</li>
+						<li>VAEWaste_Pestigator</li>
+						<li>VAEWaste_Toxafox</li>
+						<li>VAEWaste_Toxbear</li>
+						<li>VAEWaste_Toxiguana</li>
+						<li>VAEWaste_Toxlion</li>
+						<li>VAEWaste_Toxscorpion</li>
+						<li>VAEWaste_Wasteboar</li>
+						<li>VAEWaste_Wastedeer</li>
+						<li>VAEWaste_Wasteffalo</li>
+
 					</value>
 				</li>
 
@@ -233,14 +256,15 @@
 					<!-- "Inserting animal defNames into InstallSimpleProstheticTailAnimal surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallSimpleProstheticTailAnimal"]/recipeUsers</xpath>
 					<value>
-						<li>VAERoy_AngoraRabbit</li>
-						<li>VAERoy_Crane</li>
-						<li>VAERoy_Megachicken</li>				
-						<li>VAERoy_Peacock</li>
-						<li>VAERoy_Pheasant</li>
-						<li>VAERoy_Quail</li>
-						<li>VAERoy_RoyalTiger</li>
-						<li>VAERoy_Swan</li>		
+
+						<li>VAEWaste_Pestigator</li>
+						<li>VAEWaste_Toxafox</li>
+
+						<li>VAEWaste_Toxiguana</li>
+						<li>VAEWaste_Toxlion</li>
+
+
+						<li>VAEWaste_Hydra</li>	
 					</value>
 				</li>
 
