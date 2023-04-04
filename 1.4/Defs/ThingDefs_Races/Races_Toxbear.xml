@@ -160,7 +160,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Bear/Dessicated_Toxbear</texPath>
+					<texPath>Things/Pawn/Animal/Toxbear/Dessicated_Toxbear</texPath>
 					<drawSize>1.9</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -175,7 +175,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Bear/Dessicated_Toxbear</texPath>
+					<texPath>Things/Pawn/Animal/Toxbear/Dessicated_Toxbear</texPath>
 					<drawSize>2.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -190,7 +190,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Bear/Dessicated_Toxbear</texPath>
+					<texPath>Things/Pawn/Animal/Toxbear/Dessicated_Toxbear</texPath>
 					<drawSize>3.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>

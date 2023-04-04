@@ -132,7 +132,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Wasteffalo/Dessicated_Wasteffalo</texPath>
+					<texPath>Things/Pawn/Animal/Wasteffalo/Wasteffalo_Dessicated</texPath>
 					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -146,7 +146,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Wasteffalo/Dessicated_Wasteffalo</texPath>
+					<texPath>Things/Pawn/Animal/Wasteffalo/Wasteffalo_Dessicated</texPath>
 					<drawSize>2.25</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -160,7 +160,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Wasteffalo/Dessicated_Wasteffalo</texPath>
+					<texPath>Things/Pawn/Animal/Wasteffalo/Wasteffalo_Dessicated</texPath>
 					<drawSize>3</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
