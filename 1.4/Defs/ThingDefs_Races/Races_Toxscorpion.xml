@@ -123,16 +123,6 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/Toxscorpion/Toxscorpion</texPath>
-					<drawSize>0.9</drawSize>
-				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Toxscorpion/Toxscorpion_Dessicated</texPath>
-					<drawSize>0.9</drawSize>
-				</dessicatedBodyGraphicData>
-			</li>
-			<li>
-				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Toxscorpion/Toxscorpion</texPath>
 					<drawSize>1.8</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -143,11 +133,21 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/Toxscorpion/Toxscorpion</texPath>
-					<drawSize>2.6</drawSize>
+					<drawSize>2.4</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/Toxscorpion/Toxscorpion_Dessicated</texPath>
-					<drawSize>2.6</drawSize>
+					<drawSize>2.4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Toxscorpion/Toxscorpion</texPath>
+					<drawSize>3.25</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Toxscorpion/Toxscorpion_Dessicated</texPath>
+					<drawSize>3.25</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
