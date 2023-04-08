@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "WasteRat"]/race</xpath>
+		<value>
+			<leatherDef>VAEWaste_ToxicLeather</leatherDef>
+			<specificMeatDef>VAEWaste_ToxicMeat</specificMeatDef>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Toxalope"]/race</xpath>
+		<value>
+			<leatherDef>VAEWaste_ToxicLeather</leatherDef>
+			<specificMeatDef>VAEWaste_ToxicMeat</specificMeatDef>
+		</value>
+	</Operation>
+</Patch>

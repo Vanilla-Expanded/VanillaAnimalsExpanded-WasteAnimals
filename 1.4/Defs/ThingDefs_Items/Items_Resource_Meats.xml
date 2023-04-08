@@ -36,15 +36,16 @@
 		<label>toxic meat</label>
 		<description>Raw meat from a toxic animal.\n\nChewy, gelatinous and disgusting.</description>
 		<graphicData>
-			<texPath>Things/Item/ToxicMeat/ToxicMeat</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Item/ToxicMeat</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
 			<Mass>0.03</Mass>
 			<MarketValue>2</MarketValue>
 		</statBases>
 		<ingestible>
-			<specialThoughtDirect>AteRawFood</specialThoughtDirect>
+			<specialThoughtDirect>VAEWaste_AteToxicMeatDirect</specialThoughtDirect>
+			<specialThoughtAsIngredient>VAEWaste_AteToxicMeatAsIngredient</specialThoughtAsIngredient>
 		</ingestible>
 	</ThingDef>
 	

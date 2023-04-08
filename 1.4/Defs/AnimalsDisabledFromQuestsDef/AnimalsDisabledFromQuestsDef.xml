@@ -9,6 +9,7 @@
 		<disabledFromQuestsPawns>			
 			
 			<li>VAEWaste_Pestigator</li>
+			<li>VAEWaste_Toxbear</li>
 			
 		</disabledFromQuestsPawns>							
 	</AnimalBehaviours.AnimalsDisabledFromQuestsDef>

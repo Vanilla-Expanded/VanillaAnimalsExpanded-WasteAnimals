@@ -89,7 +89,7 @@
 			<baseHealthScale>1</baseHealthScale>
 			<baseHungerRate>0.2</baseHungerRate>
 			<foodType>OmnivoreRoughAnimal</foodType>
-			<leatherDef>VAEWaste_ToxicLeather</leatherDef>
+			<leatherDef>Leather_Lizard</leatherDef>
 			<wildness>0.5</wildness>
 			<specificMeatDef>VAEWaste_ToxicMeat</specificMeatDef>
 			<trainability>None</trainability>

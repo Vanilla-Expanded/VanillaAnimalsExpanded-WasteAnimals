@@ -90,7 +90,7 @@ namespace VanillaAnimalsExpandedWaste
 
 			
 			SendStandardLetter("VAEWaste_WasteAnimalsWanderInLabel".Translate(animal.label).CapitalizeFirst(), "VAEWaste_WasteAnimalsWanderInText".Translate(animal.label),
-				LetterDefOf.PositiveEvent, parms, animalMade);
+				LetterDefOf.NegativeEvent, parms, animalMade);
 			return true;
 		}
 

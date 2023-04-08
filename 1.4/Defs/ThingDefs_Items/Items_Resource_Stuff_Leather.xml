@@ -30,6 +30,7 @@
 			<statFactors>
 				<MaxHitPoints>1.2</MaxHitPoints>
 				<Flammability>2</Flammability>
+				
 			</statFactors>
 		</stuffProps>
 	</ThingDef>

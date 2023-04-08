@@ -89,6 +89,12 @@
 				<ticksAfterManhunter>30000</ticksAfterManhunter>
 
 			</li>
+			
+			<li Class="AnimalBehaviours.CompProperties_Untameable">
+				<message>VAEWaste_ToxbearNotTameable</message>
+				<sendMessage>true</sendMessage>
+				<goesManhunter>true</goesManhunter>
+			</li>
 
 		</comps>
 		<race>

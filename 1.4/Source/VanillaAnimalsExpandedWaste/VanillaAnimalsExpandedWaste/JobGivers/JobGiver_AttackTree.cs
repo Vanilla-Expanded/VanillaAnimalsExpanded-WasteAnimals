@@ -15,7 +15,7 @@ namespace VanillaAnimalsExpandedWaste
             Thing thing = null;
             Plant plant = null;
             List<Thing> listTrees = (from c in pawn.Map.listerThings.ThingsInGroup(ThingRequestGroup.Plant)
-                                     where ((plant= c as Plant) != null) && plant.def.plant.IsTree
+                                     where ((plant= c as Plant) != null) && plant.def.plant.IsTree && pawn.CanReach(c,PathEndMode.Touch,Danger.Deadly)
                                      select c).ToList();
             if(listTrees.Count > 0)
             {
