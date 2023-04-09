@@ -26,6 +26,7 @@
 		<externalViolence>true</externalViolence>
 		<deathMessage>{0} has been stung to death.</deathMessage>
 		<hediff>Stab</hediff>
+		<workerClass>VanillaAnimalsExpandedWaste.DamageWorker_Carcinoma</workerClass>
 		<hediffSolid>Crack</hediffSolid>
 		<additionalHediffs>
 			<li>
@@ -34,12 +35,7 @@
 				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
 				<inverseStatScaling>true</inverseStatScaling>
 			</li>
-			<li>
-				<hediff>Carcinoma</hediff>
-				<severityPerDamageDealt>0.004</severityPerDamageDealt>
-				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
-				<inverseStatScaling>true</inverseStatScaling>
-			</li>
+			
 		</additionalHediffs>
 		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
 		<impactSoundType>Slice</impactSoundType>
