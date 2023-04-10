@@ -22,7 +22,7 @@
 	<DamageDef>
 		<defName>VAEWaste_Sting</defName>
 		<label>toxic sting</label>
-		<workerClass>DamageWorker_Stab</workerClass>
+		
 		<externalViolence>true</externalViolence>
 		<deathMessage>{0} has been stung to death.</deathMessage>
 		<hediff>Stab</hediff>
