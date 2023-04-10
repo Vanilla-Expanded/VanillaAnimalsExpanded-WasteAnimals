@@ -37,6 +37,7 @@
 		<comps><li Class="AnimalBehaviours.CompProperties_Untameable">
 				<message>VAEWaste_PestigatorNotTameable</message>
 				<sendMessage>true</sendMessage>
+				<goWild>true</goWild>
 				<goesManhunter>true</goesManhunter>
 			</li>
 			<li Class="AnimalBehaviours.CompProperties_GraphicByTerrain">

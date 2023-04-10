@@ -93,6 +93,7 @@
 			<li Class="AnimalBehaviours.CompProperties_Untameable">
 				<message>VAEWaste_ToxbearNotTameable</message>
 				<sendMessage>true</sendMessage>
+				<goWild>true</goWild>
 				<goesManhunter>true</goesManhunter>
 			</li>
 
