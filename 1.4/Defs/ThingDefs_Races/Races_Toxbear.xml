@@ -110,7 +110,7 @@
 			<specificMeatDef>VAEWaste_ToxicMeat</specificMeatDef>
 			<leatherDef>VAEWaste_ToxicLeather</leatherDef>
 			<gestationPeriodDays>10</gestationPeriodDays>
-			<wildness>0.80</wildness>
+			<wildness>1</wildness>
 			<lifeExpectancy>22</lifeExpectancy>
 			<trainability>Advanced</trainability>
 			<manhunterOnTameFailChance>0.30</manhunterOnTameFailChance>

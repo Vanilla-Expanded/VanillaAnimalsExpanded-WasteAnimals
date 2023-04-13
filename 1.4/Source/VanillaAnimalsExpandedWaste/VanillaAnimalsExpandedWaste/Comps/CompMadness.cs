@@ -54,41 +54,59 @@ namespace VanillaAnimalsExpandedWaste
 
             if (state== ToxbearState.Normal && tickCounter >= fixedPeriod)
             {
-                state = ToxbearState.Berserk;
-                tickCounter = 0;
                 Pawn pawn = parent as Pawn;
-                pawn.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.Berserk, null, true, false, null, false);
+                if (pawn != null) {
+                    state = ToxbearState.Berserk;
+                    tickCounter = 0;
+                    pawn.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.Berserk, null, true, false, null, false);
+                }
 
             }
 
             if (state == ToxbearState.Berserk && tickCounter >= Props.ticksBetweenBerserkAndManhunter)
             {
-                state = ToxbearState.Manhunter;
-                tickCounter = 0;
                 Pawn pawn = parent as Pawn;
-                pawn.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.Manhunter, null, true, false, null, false);
+                if (pawn != null)
+                {
+                    state = ToxbearState.Manhunter;
+                    tickCounter = 0;
 
+                    pawn.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.Manhunter, null, true, false, null, false);
+                }
             }
 
             if (state == ToxbearState.Manhunter && tickCounter >= Props.ticksAfterManhunter)
             {
-                state = ToxbearState.Terminal;
-                tickCounter = 0;
                 Pawn pawn = parent as Pawn;
-                Job job = JobMaker.MakeJob(InternalDefOf.VAEWaste_AttackSelf, pawn);
-                pawn.jobs.StartJob(job);
+                if (pawn != null)
+                {
+                    state = ToxbearState.Terminal;
+                    tickCounter = 0;
+
+                    if (pawn.CurJobDef != InternalDefOf.VAEWaste_AttackSelf)
+                    {
+                        pawn.mindState.mentalStateHandler.CurState.RecoverFromState();
+                        pawn.jobs.EndCurrentJob(JobCondition.Succeeded, false);
+                        Job job = JobMaker.MakeJob(InternalDefOf.VAEWaste_AttackSelf, pawn);
+                        pawn.jobs.StartJob(job);
+                    }
+                }
 
             }
 
             if (state == ToxbearState.Terminal && tickCounter >= 500)
             {
-                
-                tickCounter = 0;
                 Pawn pawn = parent as Pawn;
-                if(pawn.CurJobDef!= InternalDefOf.VAEWaste_AttackSelf)
+                if (pawn != null)
                 {
-                    Job job = JobMaker.MakeJob(InternalDefOf.VAEWaste_AttackSelf, pawn);
-                    pawn.jobs.StartJob(job);
+                    tickCounter = 0;
+
+                    if (pawn.CurJobDef != InternalDefOf.VAEWaste_AttackSelf && pawn.CurJobDef != JobDefOf.AttackMelee)
+                    {
+                        pawn.jobs.EndCurrentJob(JobCondition.Succeeded, false);
+                        Job job = JobMaker.MakeJob(InternalDefOf.VAEWaste_AttackSelf, pawn);
+                        pawn.jobs.StartJob(job);
+                    }
                 }
                 
 
