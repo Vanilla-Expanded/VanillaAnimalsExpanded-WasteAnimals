@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<BodyDef>
-		<defName>AM_BipedalLizard</defName>
+		<defName>VAEWaste_BipedalLizard</defName>
 		<label>bipedal lizard</label>
 		<corePart>
 			<def>Body</def>

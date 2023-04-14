@@ -46,6 +46,15 @@
 		<ingestible>
 			<specialThoughtDirect>VAEWaste_AteToxicMeatDirect</specialThoughtDirect>
 			<specialThoughtAsIngredient>VAEWaste_AteToxicMeatAsIngredient</specialThoughtAsIngredient>
+			<outcomeDoers>
+				
+
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>ToxicBuildup</hediffDef>
+					<severity>0.05</severity>
+				</li>
+				
+			</outcomeDoers>
 		</ingestible>
 	</ThingDef>
 	

@@ -84,7 +84,7 @@
 		</verbs>
 		<race>
 			<deathActionWorkerClass>VanillaAnimalsExpandedWaste.DeathActionWorker_ToxCloudAndRots</deathActionWorkerClass>
-			<body>AM_BipedalLizard</body>
+			<body>VAEWaste_BipedalLizard</body>
 			<baseBodySize>1.4</baseBodySize>
 			<baseHealthScale>1</baseHealthScale>
 			<baseHungerRate>0.2</baseHungerRate>
