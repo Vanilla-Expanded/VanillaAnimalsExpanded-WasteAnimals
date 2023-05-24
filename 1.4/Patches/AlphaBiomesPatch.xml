@@ -31,14 +31,11 @@
 					</value>
 				</li> 	
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/BiomeDef[defName = "AB_OcularForest"]</xpath>
+					<xpath>/Defs/BiomeDef[defName = "AB_OcularForest"]/pollutionWildAnimals</xpath>
 					<value>
-						<pollutionWildAnimals>
-							<VAEWaste_Toxafox>0.07</VAEWaste_Toxafox>
-							<VAEWaste_Wasteboar>0.5</VAEWaste_Wasteboar>
-							<VAEWaste_Wastedeer>0.5</VAEWaste_Wastedeer>
-						</pollutionWildAnimals>
-
+						<VAEWaste_Toxafox>0.07</VAEWaste_Toxafox>
+						<VAEWaste_Wasteboar>0.5</VAEWaste_Wasteboar>
+						<VAEWaste_Wastedeer>0.5</VAEWaste_Wastedeer>
 					</value>
 				</li> 	
 				<!-- Warm biomes -->
