@@ -14,7 +14,7 @@ namespace VanillaAnimalsExpandedWaste
 
             Pawn pawn = victim as Pawn;
 
-            if (pawn != null)
+            if (pawn != null && !pawn.RaceProps.IsMechanoid)
             {
 
                 BodyPartRecord bodyPartRecord = ReflectionCache.GetExactPartFromDamageInfo(this, dinfo, pawn);
