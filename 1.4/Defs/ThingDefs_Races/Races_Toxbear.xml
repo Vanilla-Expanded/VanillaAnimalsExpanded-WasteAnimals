@@ -144,8 +144,7 @@
 			</headPosPerRotation>
 		</race>
 		<tradeTags>
-			<li>AnimalUncommon</li>
-			<li>AnimalFighter</li>
+			<li>AnimalAlpha</li>
 		</tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">

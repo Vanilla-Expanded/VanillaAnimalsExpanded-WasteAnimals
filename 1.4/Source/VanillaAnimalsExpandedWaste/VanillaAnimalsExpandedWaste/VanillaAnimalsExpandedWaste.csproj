@@ -305,6 +305,7 @@
     <Compile Include="Hediffs\HediffCompProperties\HediffCompProperties_Toxflu.cs" />
     <Compile Include="Hediffs\HediffComp_Toxflu.cs" />
     <Compile Include="IncidentWorkers\IncidentWorker_WasteAnimalsWanderIn.cs" />
+    <Compile Include="IngestionOutcomeDoers\IngestionOutcomeDoer_Toxic.cs" />
     <Compile Include="JobDrivers\JobDriver_AttackSelf.cs" />
     <Compile Include="JobDrivers\JobDriver_AttackTree.cs" />
     <Compile Include="JobDrivers\JobDriver_EatWastepack.cs" />

@@ -49,8 +49,8 @@
 			<outcomeDoers>
 				
 
-				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>ToxicBuildup</hediffDef>
+				<li Class="VanillaAnimalsExpandedWaste.IngestionOutcomeDoer_Toxic">
+					
 					<severity>0.05</severity>
 				</li>
 				
