@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SCMWS+++iYs/Eu762C5Kwb0AIG4ct9a4ckAWfdedkV2y4ga1s5s8R5h+nyXiXmJbCwDSq0Ryg+zEXbHQjDSS2g==",
+  "success": true,
+  "projectFilePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaAnimalsExpanded-WasteAnimals\\1.5\\Source\\VanillaAnimalsExpandedWaste\\VanillaAnimalsExpandedWaste\\VanillaAnimalsExpandedWaste.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sarg\\.nuget\\packages\\lib.harmony\\2.3.1.1\\lib.harmony.2.3.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
