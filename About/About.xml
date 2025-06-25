@@ -5,6 +5,7 @@
 	<supportedVersions>	
 		<li>1.4</li>
 		<li>1.5</li>
+		<li>1.6</li>
 	</supportedVersions>
 	<modIconPath IgnoreIfNoMatchingField="True">UI/VELogo</modIconPath>
 	<modDependencies>
@@ -27,7 +28,7 @@
 	</modDependencies>
 	<loadAfter>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
-		<li>Ludeon.RimWorld.Biotech</li>
+		
 	</loadAfter>
 	<packageId>VanillaExpanded.VAEWaste</packageId>
 	<description>Embrace the toxic side of nature with the "Vanilla Animals Expanded - Waste Animals" mod! This unique mod expands the range of creatures found in highly polluted biomes, diversifying the environmental challenges and adding an extra layer of depth to your gameplay experience.
