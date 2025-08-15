@@ -20,43 +20,49 @@ namespace VanillaAnimalsExpandedWaste
         [HarmonyPostfix]
         static void Toxflu(Pawn initiator, Pawn recipient)
         {
-            if (initiator.health?.hediffSet?.HasHediff(InternalDefOf.VAEWaste_Toxflu)==true && recipient.health?.hediffSet?.HasHediff(InternalDefOf.VAEWaste_Toxflu)!=true)
+            if (!VanillaAnimalsExpandedWaste_Settings.VAEW_DisableToxfluSpread)
             {
-                System.Random random = new System.Random();
-                double randomChanceToxResistance = random.NextDouble();
+                if (initiator.health?.hediffSet?.HasHediff(InternalDefOf.VAEWaste_Toxflu) == true && recipient.health?.hediffSet?.HasHediff(InternalDefOf.VAEWaste_Toxflu) != true)
+                {
+                    System.Random random = new System.Random();
+                    double randomChanceToxResistance = random.NextDouble();
 
-                if(randomChanceToxResistance > recipient.GetStatValue(StatDefOf.ToxicResistance))
-                {
-                    float chance = 0.1f;
-                    if (initiator.health?.hediffSet?.GetFirstHediffOfDef(InternalDefOf.VAEWaste_Toxflu).Severity < 0.66)
+                    if (randomChanceToxResistance > recipient.GetStatValue(StatDefOf.ToxicResistance))
                     {
-                        chance = 0.5f;
+                        float chance = 0.1f;
+                        if (initiator.health?.hediffSet?.GetFirstHediffOfDef(InternalDefOf.VAEWaste_Toxflu).Severity < 0.66)
+                        {
+                            chance = 0.5f;
+                        }
+                        double randomChance = random.NextDouble();
+                        if (randomChance < chance)
+                        {
+                            recipient.health.AddHediff(InternalDefOf.VAEWaste_Toxflu);
+                        }
                     }
-                    double randomChance = random.NextDouble();
-                    if (randomChance < chance)
-                    {
-                        recipient.health.AddHediff(InternalDefOf.VAEWaste_Toxflu);
-                    }
+
                 }
-           
-            } else if (initiator.health?.hediffSet?.HasHediff(InternalDefOf.VAEWaste_Toxflu) !=true && recipient.health?.hediffSet?.HasHediff(InternalDefOf.VAEWaste_Toxflu) == true)
-            {
-                System.Random random = new System.Random();
-                double randomChanceToxResistance = random.NextDouble();
-                if (randomChanceToxResistance > initiator.GetStatValue(StatDefOf.ToxicResistance))
+                else if (initiator.health?.hediffSet?.HasHediff(InternalDefOf.VAEWaste_Toxflu) != true && recipient.health?.hediffSet?.HasHediff(InternalDefOf.VAEWaste_Toxflu) == true)
                 {
-                    float chance = 0.1f;
-                    if (recipient.health?.hediffSet?.GetFirstHediffOfDef(InternalDefOf.VAEWaste_Toxflu).Severity < 0.66)
+                    System.Random random = new System.Random();
+                    double randomChanceToxResistance = random.NextDouble();
+                    if (randomChanceToxResistance > initiator.GetStatValue(StatDefOf.ToxicResistance))
                     {
-                        chance = 0.5f;
-                    }
-                    double randomChance = random.NextDouble();
-                    if (randomChance < chance)
-                    {
-                        initiator.health.AddHediff(InternalDefOf.VAEWaste_Toxflu);
+                        float chance = 0.1f;
+                        if (recipient.health?.hediffSet?.GetFirstHediffOfDef(InternalDefOf.VAEWaste_Toxflu).Severity < 0.66)
+                        {
+                            chance = 0.5f;
+                        }
+                        double randomChance = random.NextDouble();
+                        if (randomChance < chance)
+                        {
+                            initiator.health.AddHediff(InternalDefOf.VAEWaste_Toxflu);
+                        }
                     }
                 }
             }
+
+
 
         }
     }
