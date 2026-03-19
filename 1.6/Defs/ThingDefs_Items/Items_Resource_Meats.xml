@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<!--  Bases  -->
 	<ThingDef Name="VAEWaste_RawMeatBase" Abstract="True" ParentName="OrganicProductBase">
 		<label>Base meat properties</label>
@@ -14,23 +13,23 @@
 			<Nutrition>0.05</Nutrition>
 			<Flammability>0.5</Flammability>
 			<FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
-
 		</statBases>
 		<ingestible>
 			<foodType>Meat</foodType>
 			<preferability>DesperateOnly</preferability>
 			<ingestEffect>EatMeat</ingestEffect>
-			<ingestSound>RawMeat_Eat</ingestSound>		
+			<ingestSound>RawMeat_Eat</ingestSound>
 		</ingestible>
+		<ingredient>
+			<mergeCompatibilityTags>
+				<li>VAEWaste_ToxicMeat</li>
+			</mergeCompatibilityTags>
+		</ingredient>
 		<thingCategories>
 			<li>MeatRaw</li>
 		</thingCategories>
 	</ThingDef>
-
-	
-
 	<!--  Toxic meat  -->
-
 	<ThingDef ParentName="VAEWaste_RawMeatBase">
 		<defName>VAEWaste_ToxicMeat</defName>
 		<label>toxic meat</label>
@@ -47,18 +46,10 @@
 			<specialThoughtDirect>VAEWaste_AteToxicMeatDirect</specialThoughtDirect>
 			<specialThoughtAsIngredient>VAEWaste_AteToxicMeatAsIngredient</specialThoughtAsIngredient>
 			<outcomeDoers>
-				
-
 				<li Class="VanillaAnimalsExpandedWaste.IngestionOutcomeDoer_Toxic">
-					
 					<severity>0.05</severity>
 				</li>
-				
 			</outcomeDoers>
 		</ingestible>
 	</ThingDef>
-	
-	
-
-
 </Defs>
